@@ -1,140 +1,165 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# 你是用 GitHub Pages 托管的，所以 repository 建议写成 你的用户名/仓库名
+repository: WenHuanjian/WenHuanjian.github.io
+# favicon: images/favicon.ico
 
-# Content configuration version
 version: 2
 
-# Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+# ========== 基本信息 ==========
+name: 温焕健
+title: 经济学硕士｜国际业务/商业分析/运营支持（求职）
+email: huanjian_wen@163.com
+phone: 15153653773
+# 如果你暂时没有个人域名，就留空或注释掉
+website:
+# website_title: 个人网站
 
-# Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# ========== 社交链接（清空可隐藏右上角图标） ==========
+twitter_username:
+github_username:
+stackoverflow_username:
+dribbble_username:
+facebook_username:
+flickr_username:
+instagram_username:
+linkedin_username:
+xing_username:
+pinterest_username:
+youtube_username:
+orcid_username:
+googlescholar_username:
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links: []
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# ========== About ==========
+about_title: 关于我
+# 头像：你可以把自己的照片上传并命名为 images/profile.jpg
+about_profile_image: images/profile.jpg
+about_content: |
+  我目前就读于**威斯康星大学麦迪逊分校**经济学硕士（2024.09–2026.05），具备英文工作沟通能力与数据分析能力。拥有国际客户拓展、跨境展会运营、投研分析与咨询项目经历，能够在快节奏场景下完成需求拆解、数据分析、方案撰写与对外沟通协同。
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  **优势关键词：** 客户拓展｜展会运营｜投研分析｜流程与项目管理｜数据清洗与可视化（Excel / Python / OpenRefine / Visio）
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+  # ========== 工作经历 ==========
+  - title: 工作经历
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+        title: 山东新和盛飨食集团有限公司
+        sub_title: 国际业务与销售支持助理
+        caption: 2025.06 – 2025.09
+        description: |
+          - **客户拓展：** 负责荷兰客户 2 天全流程商务拓展接待，统筹对接与产品卖点拆解；累计对接 **5 国 15+ 人次**国际客户，搭建沟通机制。
+          - **展会支持：** 参与杭州全球跨境电商展会运营，负责展位/产品矩阵筹备与现场对接；**3 天完成 600+ 人次推介**，挖掘 **30+** 国际意向客户。
+          - **客资维护：** 梳理客户需求与合作意向，分层归档客资并优化跟进话术，支持国际市场拓展与潜在转化。
+
+      - layout: right
+        title: 惠普科技风险投资公司（HP Venture）
+        sub_title: 企业风险投资与商业分析助理
+        caption: 2024.12 – 2025.02
+        description: |
+          - **商业分析：** 参与 AI 与视频流媒体领域投资调研，摸排 **23 家**初创企业；通过多维评估筛选 **5 家**优质标的并输出赛道趋势研报。
+          - **数据运营：** 使用 **Excel / OpenRefine** 完成数据清洗标准化，结合 **Python** 深度分析与可视化；拆解用户、成本与收益模型，支撑投资/合作决策。
+          - **策略支持：** 围绕投资方战略诉求撰写定向推介报告，拆解供需匹配点并完成汇报宣讲。
+
+      - layout: right
+        title: 上海企源科技股份有限公司
+        sub_title: IT 咨询助理
+        caption: 2023.06 – 2023.09
+        description: |
+          - **需求调研：** 调研战略规划与运营模块数据，进行业务诊断与需求拆解；使用 **Visio** 构建数字化业务蓝图。
+          - **方案优化：** 为供应商制定标准化项目管理体系（进度/文档/调研等），提升项目一致性与效率，降低执行风险。
+          - **流程跟进：** 参与主数据系统升级咨询标前筹备，协助调研与招标流程，推动业财一体化项目对齐需求并落地。
+
+  # ========== 教育 ==========
+  - title: 教育经历
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+        title: 威斯康星大学麦迪逊分校（University of Wisconsin–Madison）
+        sub_title: 经济学硕士
+        caption: 2024.09 – 2026.05
+        description: |
+          - 课程：经济学机器学习（R）、计量经济学（Stata）
+
+      - layout: top-right
+        title: 上海对外经贸大学
+        sub_title: 国际经济与贸易（全英文）
+        caption: 2020.09 – 2024.06
+        description: |
+          - 荣誉：优秀学生奖学金、优秀毕业生、优秀学生干部等
+          - 学术：客户关系管理分析与优化（以三只松鼠为例，独立完成），发表于 EDMS 2023；参与《长三角一体化战略下外贸企业数字化转型研究》项目并收录出版
+
+  # ========== 研究/项目 ==========
+  - title: 研究与项目经历
+    layout: list
+    content:
+      - layout: left
+        title: 长三角外贸企业数字化转型研究（中国对外经济贸易统计学会社会研究项目）
+        caption: 2021.06 – 2021.09
+        description: |
+          - 走访 **9 家**外贸企业，访谈与问卷收集运营/生产/物流多维数据
+          - 分析技术瓶颈、管理障碍与流程不匹配等关键挑战，形成研究报告与政策建议
+          - 成果：报告收录于《中国商务出版社》出版书籍《长三角一体化战略下外贸企业数字化转型研究》（2022.06）
+
+      - layout: left
+        title: 实体互动沉浸式 VR 文创娱乐仿真项目（上海市学生创新创业训练计划）
+        caption: 2021.03 – 2021.06
+        description: |
+          - 调研 VR 行业趋势与需求，参与教育/医疗功能模块设计与场景规划
+          - 撰写管理运营结构与项目提案，项目通过市级立项审批
+
+  # ========== 校园 ==========
+  - title: 校园经历
+    layout: list
+    content:
+      - layout: right
+        title: 上海对外经贸大学校级学生会
+        sub_title: 学生会主席
+        caption: 2021.05 – 2023.06
+        description: |
+          - **招聘管理：** 主持 2 届成员招聘，负责 **20+** 职位面试评估，完善选拔与晋升机制
+          - **团队培训：** 组织培训交流活动覆盖 **100+** 人，提升能力与协作
+          - **活动策划：** 统筹 **10+** 场活动，组织 **13 所高校**学生会参与，增强资源整合与影响力
+          - **项目协调：** 推动组织数字化转型，整合需求与信息流，提升组织效率
+
+  # ========== 技能 ==========
+  - title: 技能与工具
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+    content: |
+      - **商务能力：** 客户开发｜商务谈判｜合作方案制定｜项目推进  
+      - **数据分析：** Python（pandas / numpy）｜R｜SQL｜Excel（清洗/建模/函数）｜OpenRefine  
+      - **办公与流程：** MS Office｜Visio｜报告撰写与可视化表达  
+      - **语言：** 英语熟练（可作为工作语言）｜中文母语  
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  # ========== 自我评价 ==========
+  - title: 自我评价
+    layout: text
+    content: |
+      具备扎实的商务拓展与客户运营经验，熟悉客户开发、谈判与合作推进流程；拥有国际客户与展会实战经验，能高效挖掘商机并推动转化。擅长结合数据分析与业务洞察输出可执行方案，沟通协同与执行力强，结果导向，适应快节奏环境。
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+footer_show_references: false
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
